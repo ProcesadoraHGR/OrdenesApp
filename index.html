@@ -24,9 +24,14 @@
     <div id="imageModal" class="modal">
         <span class="close">&times;</span>
         <img id="modalImage" class="modal-content">
-        <a class="prev" onclick="changeImage(-1)">&#10094;</a>
-        <a class="next" onclick="changeImage(1)">&#10095;</a>
+        <div class="prev-container">
+            <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+        </div>
+        <div class="next-container">
+            <a class="next" onclick="changeImage(1)">&#10095;</a>
+        </div>
     </div>
+
     <div class="filtros">
         <button class="btn-filtro" data-filtro="1kg">Presentaciones de 1KG</button>
         <button class="btn-filtro" data-filtro="100g">Presentaciones de 100g</button>
